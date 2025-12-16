@@ -22,7 +22,7 @@ class CalculadoraTarifasTest {
     @Test
     void testTarifaBasica_ok() {
         double r = calc.calcularTarifa(1.0, 10, false);
-        assertEquals(5.0, r); // assertEquals (OK)
+        assertEquals(999.0, r); // assertEquals (OK)
     }
 
     @Test
