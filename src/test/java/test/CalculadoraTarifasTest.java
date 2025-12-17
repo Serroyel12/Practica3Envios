@@ -21,10 +21,10 @@ class CalculadoraTarifasTest {
 
     @Test
     void testTarifaBasica_ok() {
-        double r = calc.calcularTarifa(1.0, 10, false);
+        double r = calc.calcularTarifa(5.0, 10, false);
         assertEquals(5.0, r); // assertEquals (OK)
     }
-
+  
    
     
     @Test
