@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.ParticionCategoriasTest" time="0.035" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.ParticionCategoriasTest" time="0.036" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Users\usuario\Desktop\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\usuario\AppData\Local\Temp\surefire15846521241274694331\surefirebooter-20251217110712359_3.jar C:\Users\usuario\AppData\Local\Temp\surefire15846521241274694331 2025-12-17T11-07-12_093-jvmRun1 surefire-20251217110712359_1tmp surefire_0-20251217110712359_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\usuario\AppData\Local\Temp\surefire5242437004224873736\surefirebooter-20251217144728591_3.jar C:\Users\usuario\AppData\Local\Temp\surefire5242437004224873736 2025-12-17T14-47-28_382-jvmRun1 surefire-20251217144728591_1tmp surefire_0-20251217144728591_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\usuario\Desktop\Practica3Envios\target\test-classes;C:\Users\usuario\Desktop\Practica3Envios\target\classes;C:\Users\usuario\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\usuario\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\usuario\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\usuario\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\usuario\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\usuario\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\usuario\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\usuario\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\usuario\AppData\Local\Temp\surefire15846521241274694331\surefirebooter-20251217110712359_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\usuario\AppData\Local\Temp\surefire5242437004224873736\surefirebooter-20251217144728591_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+7-LTS"/>
@@ -64,8 +64,8 @@
     <system-out><![CDATA[[C_LOG] ERROR: Peso o distancia invalida (NODO 1)
 ]]></system-out>
   </testcase>
-  <testcase name="testCategoriaPesoCritico" classname="test.ParticionCategoriasTest" time="0.005"/>
-  <testcase name="testCategoriaDistanciaExtrema" classname="test.ParticionCategoriasTest" time="0.002">
+  <testcase name="testCategoriaPesoCritico" classname="test.ParticionCategoriasTest" time="0.002"/>
+  <testcase name="testCategoriaDistanciaExtrema" classname="test.ParticionCategoriasTest" time="0.001">
     <system-out><![CDATA[[C_LOG] ADVERTENCIA: Envio muy lejano y NO urgente (NODO 8)
 ]]></system-out>
   </testcase>
@@ -73,5 +73,5 @@
     <system-out><![CDATA[[C_LOG] ERROR: Peso excede el limite de 20,0 kg (NODO 4)
 ]]></system-out>
   </testcase>
-  <testcase name="testCategoriaUrgente" classname="test.ParticionCategoriasTest" time="0.005"/>
+  <testcase name="testCategoriaUrgente" classname="test.ParticionCategoriasTest" time="0.002"/>
 </testsuite>
